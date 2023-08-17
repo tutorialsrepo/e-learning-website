@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid rgba(182, 176, 176);
+  padding: 15px 20px;
+}
+
+header .searchInput {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+header input {
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+input::placeholder {
+  font-size: 14px !important;
+}
+
+header button {
+  padding: 10px 20px;
+  font-weight: bolder;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.login {
+  background-color: white;
+  color: black;
+}
+
+.signup {
+  background-color: black;
+  color: white;
+}
+
+section {
+  /* padding-top: 10px; */
+  /* border: 10px solid rgb(34, 255, 0); */
+  /* width: 40%; */
+}
+
+.home img {
+  /* border: 10px solid red; */
+  width: 100%;
+}
+
+.color-gray {
+  color: gray;
+}
+.originalPrice {
+  text-decoration: line-through;
+}
+
+.courseTypes {
+  padding: 50px;
+}
+
+.courseTypes h1 {
+  font-size: 30px !important;
+}
+
+.courseTypes p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.courseTypes .domains span:not(:first-child) {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.carrerOpporunities {
+  margin: 0 50px;
+  border: 1px solid;
+  padding: 50px;
+}
+
+.carrerOpporunities h1 {
+  margin-bottom: 10px;
+}
+
+.carrerOpporunities p {
+  padding: 10px 0;
+}
+
+.carrerOpporunities button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid;
+}
+
+.carrerOpporunitiesCards {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardList {
+  width: 220px;
+}
+
+.cardList img {
+  border: 1px solid gray;
+}
+
+.cardList h4 {
+  margin-bottom: 10px;
+}
+
+.rating span {
+  color: gold;
+}
+
+.top-categories {
+  margin: 30px;
+}
+.top-categories h1 {
+  margin-bottom: 10px;
+}
+
+.topCategoriesCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.topCategoriesCards div {
+  width: 220px;
+  margin: 5px 10px 10px 0px;
+}
+
+.topCategoriesCards div img {
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.topCategoriesCards div img:hover {
+  transform: scale(1.1);
+}
+
+.instructor {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.instructor h1,
+p,
+button {
+  margin: 10px;
+}
+
+.instructor button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+footer {
+  padding: 50px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer div ul li {
+  list-style: none;
+  padding: 5px;
+}
+footer div button {
+  padding: 0 20px;
+  height: 40px;
+}
+
+.secondFooter {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid gray;
+}
